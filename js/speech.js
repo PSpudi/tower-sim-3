@@ -8,5 +8,6 @@ function speak(btn) {
 
     let callsign = $(btn).val();
     const utterThis = new SpeechSynthesisUtterance(callsign);
+    utterThis.lang = "en-US";
     synth.speak(utterThis);
 }
