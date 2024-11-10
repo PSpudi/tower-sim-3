@@ -84,8 +84,16 @@
             },
             columnDefs: [
                 {
-                    'searchable': false,
-                    'targets': [1,2,3]
+                    searchable: false,
+                    targets: [1,2,3]
+                },
+                {
+                    render: (data) => '<b>'+data+'</b>',
+                    targets: 0
+                },
+                {
+                    render: (data) => '<span class="badge bg-success-subtle border border-success-subtle text-success-emphasis rounded-pill">'+data+'</span>',
+                    targets: 1
                 }
             ],
             data: airlines
