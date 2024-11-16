@@ -672,6 +672,7 @@ let airlines = [
     ['QFA','QANTAS','Qantas Airways','AUS'],
     ['QJE','Q JET','Qantas Link','AUS'],
     ['QLK','Q-LINK','Qantas Link','AUS'],
+    ['QQE','QREX','Qatar Executive','QAT'],
     ['QSA','NORTHEASTER','Northeaster Airlines','USA'],
     ['QSM','QESHM AIR','Qeshm Air','IRN'],
     ['QTR','QATARI','Qatar Airways','QAT'],
